@@ -1,0 +1,14 @@
+{
+	"passwd":"CUSTOM_PASSWORD_TO_AUTHENTICATE_USER",
+	"servers":[ {
+		"host":"YOUR_SSH_IPv4",
+		"uname":"YOUR_SSH_USERNAME",
+		"passwd":"YOUR_SSH_PASSWORD",
+		"port":"YOUR_SSH_PORT"
+	} ],
+	"cmd_list":[
+		"uname -a",
+		"whoami",
+		"pwd"
+	]
+}
